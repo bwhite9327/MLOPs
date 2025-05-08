@@ -28,7 +28,7 @@ from sklearn.metrics import confusion_matrix
 plt.style.use('seaborn-v0_8-whitegrid')
 
 
-df=pd.read_csv('drive/MyDrive/Colab Notebooks/NLP/Proyecto Final/The Lord of the Rings - The Fellowship of the Ring - Reviews.csv',encoding = "ISO-8859-1")
+df=pd.read_csv('~/The Lord of the Rings - The Fellowship of the Ring - Reviews.csv',encoding = "ISO-8859-1")
 print(df.head())
 
 df.info()
